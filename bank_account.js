@@ -8,6 +8,7 @@ function tambahSaldo(){
     return saldo;
     
 };
+tambahSaldo();
 
 
 function kurangiSaldo(){
@@ -16,14 +17,12 @@ function kurangiSaldo(){
     alert(`saldo baru anda adalah ${saldo}`);
     return saldo;
 };
+kurangiSaldo();
 
 
-window.onload = function(){
+
     
-    tambahSaldo();
-    kurangiSaldo()
     
-}
 
 
 
